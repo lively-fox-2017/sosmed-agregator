@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HOME</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="input-field">
+          <i class="material-icons prefix">search</i>
+          <input type="text" id="search" name="search">
+          <label for="icon_prefix">Search for Tweet</label>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="col s6">
+        <ul class="collection">
+          <li class="collection-item">Alvin</li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-item">Alvin</li>
+        </ul>
+      </div>
+      <div class="divider"></div>
+      <div class="col s6">
+        <div class="input-field">
+          <textarea class="materialize-textarea" id="textarea1"></textarea>
+          <label for="textarea1">Tweet</label>
+        </div>
+        <div class="input-field">
+          <button id="tweet" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Tweet !</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  $(document).ready(function() {
+    $('#textarea1').trigger('autoresize');
+    $.ajax({
+      url: 'http://localhost:3000/api/twitter/timeline',
+      data: {
+        format: 'json'
+      },
+      error: function(err) {
+        console.log(err);
+      },
+      success: function(data) {
+        $('ul.collection').empty();
+        data.forEach(d => {
+          $('ul.collection').append('<li class="collection-item">'+d.text+'</li>');
+        })
+      },
+      type: 'GET'
+    })
+  });
+  $('input#search').keypress(function(e) {
+    if (e.which == 13) {
+      $.ajax({
+        url: 'http://localhost:3000/api/twitter/search/' + $('input#search').val(),
+        data: {
+          format: 'json'
+        },
+        error: function(err) {
+          console.log(err);
+        },
+        success: function(data) {
+          console.log(data)
+          $('ul.collection').empty();
+          data.statuses.forEach(d => {
+            $('ul.collection').append('<li class="collection-item">' + d.text + '</li>');
+          })
+        },
+        type: 'GET'
+      })
+    }
+  })
+  $('button#tweet').click(function(e) {
+    $.ajax({
+      url: 'http://localhost:3000/api/twitter/tweet',
+      data: {
+        tweet: $('textarea#textarea1').val()
+      },
+      error: function(err) {
+        console.log(err);
+      },
+      success: function(data) {
+        console.log(data);
+      },
+      type: 'POST'
+    })
+  })
+</script>
+
+</html>
