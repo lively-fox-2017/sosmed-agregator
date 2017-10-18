@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- <ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul> -->
+
+<table id="myList">
+    <tr>
+        <th>Halo</th>
+        <th>Halo2</th>
+    </tr>
+    <tr>
+        <td>Hello</td>
+        <td>Hello2</td>
+    </tr>
+</table>
+
+<p>Click the button get the HTML content of the ul element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<table id="demo"></table>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myList").innerHTML;
+    console.log(x)
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
