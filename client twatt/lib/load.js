@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#div1").load("http://localhost:3000/", function(res, status, xhr) {
+    $("#div1").load("http://localhost:3000/twatt", function(res, status, xhr) {
         var parse = JSON.parse(res)
         var list = document.getElementById('ul2');
         document.createElement('table')
@@ -54,7 +54,7 @@ $(document).ready(function() {
             // process the form
             $.ajax({
                 type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-                url         : 'http://localhost:3000/', // the url where we want to POST
+                url         : 'http://localhost:3000/twatt', // the url where we want to POST
                 data        : formData, // our data object
                 dataType    : 'json', // what type of data do we expect back from the server
                             encode          : true

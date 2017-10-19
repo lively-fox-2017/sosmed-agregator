@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+    <body>
+        <script>
+            var responseGlobal = ''
+            function statusChangeCallback(response) {
+                responseGlobal = response
+                console.log('statusChangeCallback');
+                console.log(response);
+                if (response.status === 'connected') {
+                axios.post('http://localhost:3000/fb', {
+                    headers: {
+                        accessToken: response.authResponse.accessToken
+                    }
+                })
+                    .then(function (response) {
+                        
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+                    document.getElementById("myBtn").addEventListener("click", function(){
+                        axios.post('http://localhost:3000/fb/timeline', {
+                            headers: {
+                                accessToken: response.authResponse.accessToken
+                            }
+                        })
+                        .then(function (response) {
+                            
+                            console.log(response);
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        });
+                    });
+                    // window.location="home.html";
+                } else {
+                // The person is not logged into your app or we are unable to tell.
+                document.getElementById('status').innerHTML = 'Please log ' +
+                    'into this app.';
+                }
+            }
+
+            window.fbAsyncInit = function() {
+                FB.init({
+                appId            : 124418718270686,
+                autoLogAppEvents : true,
+                xfbml            : true,
+                version          : 'v2.10'
+                });
+                FB.AppEvents.logPageView();
+
+                FB.getLoginStatus(function(response) {
+                    console.log(response)
+                    statusChangeCallback(response);
+                });
+
+                function checkLoginState() {
+                    FB.getLoginStatus(function(response) {
+                        statusChangeCallback(response);
+                    });
+                }
+            };
+            
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+
+               
+            </script>
+
+        <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+        </fb:login-button>
+        <button id='myBtn'>Post a test message</button>
+    </body>
+</html>
