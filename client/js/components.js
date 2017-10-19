@@ -12,7 +12,7 @@ const tweetCards = (tweet) => {
 		});
 		hashtags += `</span>`
 	} else {
-		hashtags = ``
+		hashtags = `<span class="level-left"></span>`
 	}
 
 	const component = 
