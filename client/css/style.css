@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-#left-panel {
+#tw-left-panel {
 	width: 38.5%;
 	position: fixed;
 	left: 0;
@@ -16,14 +16,25 @@ html {
 	color: #fafafa;
 }
 
-#right-panel {
+#tw-right-panel {
 	width: 61.5%;
 	margin-left: 38.5%;
 	padding: 32px 64px;
 }
-
 nav {
-	border-bottom: 1px solid #222;
+	margin-bottom: 36px;
+}
+nav h1 {
+	font-size: 36px;
+	letter-spacing: 8px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 28px;
+}
+nav h1 span {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 0;
 }
 
 .circular-btn {
@@ -46,4 +57,27 @@ nav {
 
 .input-bg-tw .icon .fa {
 	color: #fafafa;
+}
+
+#letter-count {
+	visibility: hidden;
+}
+
+.tw-card {
+	margin-bottom : 32px;
+}
+
+.user-picture {
+	display: block;
+	border-radius: 100%;
+	margin-right: 16px;
+}
+.tw-date {
+	font-size: 10px;
+	color: rgb(43, 158, 235);
+}
+.tw-hashtag {
+	font-size: 10px;
+	color: rgb(43, 158, 235);
+	font-weight: bold;
 }

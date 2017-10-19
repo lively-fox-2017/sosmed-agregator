@@ -24,7 +24,7 @@ const search = (keyword) => {
 				return {
 					createdAt: datum.created_at,
 					text: datum.text,
-					hashtags: datum.entities.hashtags.length > 0 ? datum.entities.hashtags.map(hashtag => hashtag.text) : null,
+					hashtags: datum.entities.hashtags.length > 0 ? datum.entities.hashtags.map(hashtag => `#${hashtag.text}`) : null,
 					media: datum.entities.media ? datum.entities.media.map(medium => ({url: medium.media_url_https, type: medium.type})) : null,
 					user: {
 						name: datum.user.name,
@@ -48,7 +48,7 @@ const timeline = () => {
 				return {
 					createdAt: datum.created_at,
 					text: datum.text,
-					hashtags: datum.entities.hashtags.length > 0 ? datum.entities.hashtags.map(hashtag => hashtag.text) : null,
+					hashtags: datum.entities.hashtags.length > 0 ? datum.entities.hashtags.map(hashtag => `#${hashtag.text}`) : null,
 					media: datum.entities.media ? datum.entities.media.map(medium => ({url: medium.media_url_https, type: medium.type})) : null,
 					user: {
 						name: datum.user.name,
@@ -72,7 +72,7 @@ const tweet = (status) => {
 			data = {
 				createdAt: data.created_at,
 				text: data.text,
-				hashtags: data.entities.hashtags.length > 0 ? data.entities.hashtags.map(hashtag => hashtag.text) : null,
+				hashtags: data.entities.hashtags.length > 0 ? data.entities.hashtags.map(hashtag => `#${hashtag.text}`) : null,
 				user: {
 					name: data.user.name,
 					username: data.user.screen_name

@@ -9,15 +9,14 @@
 <body>
 	<div id="main-container">
 
-		<div id="left-panel">
+		<div id="tw-left-panel">
 			<nav>
-				<div>
-					Nav Bro
-				</div>
+				<h1>TWATT <br><span>twitter (worse) alternatives</span></h1>
+				<hr>
 			</nav>
 			<div class="field">
 			  <div class="control has-icons-left has-icons-right">
-			    <input class="input input-bg-tw" type="search" placeholder="search">
+			    <input id="tw-search-input" class="input input-bg-tw" type="search" placeholder="search">
 			    <span class="icon is-small is-left">
 			      <i class="fa fa-search"></i>
 			    </span>
@@ -25,27 +24,28 @@
 			</div>
 			<div class="field">
 			  <div class="control">
-	  			<button class="button is-info is-outlined is-inverted circular-btn">Search</button>
+	  			<button id="tw-search-btn" class="button is-info is-outlined is-inverted circular-btn">Search</button>
 				</div>
 			</div>
 
 
 			<div class="field">
 			  <div class="control">
-			    <textarea class="textarea input-bg-tw" placeholder="your rant.."></textarea>
+			  	<label id="letter-count"><span>0</span>/140</label>
+			    <textarea id="tweet-box" class="textarea input-bg-tw" placeholder="Blast your rant here..."></textarea>
 			  </div>
 			</div>
 			<div class="field">
 			  <div class="control">
-	  			<button class="button is-info is-outlined is-inverted circular-btn">Tweet</button>
+	  			<button id="tw-tweet-btn"  class="button is-info is-outlined is-inverted circular-btn">Tweet</button>
 				</div>
 			</div>
 		</div>
 
 		
 
-		<div id="right-panel">
-			<div class="card">
+		<div id="tw-right-panel">
+<!-- 			<div class="card">
 			  <header class="card-header">
 			    <p class="card-header-title is-centered">
 			      User
@@ -60,10 +60,16 @@
 			    <p class="card-footer-item">Info</p>
 			    <p class="card-footer-item">Another Info</p>
 			  </footer>
-			</div>
+			</div> -->
 		</div>
 	
 
 	</div>
 </body>
+<script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="js/vendor/axios.min.js"></script>
+<script type="text/javascript" src="js/vendor/velocity.min.js"></script>
+<script type="text/javascript" src="js/components.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
 </html>
