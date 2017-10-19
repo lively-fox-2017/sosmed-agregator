@@ -1,0 +1,26 @@
+{
+  "name": "twatt",
+  "version": "1.0.0",
+  "description": "akses api twitter menggunakan oauth (pagi) dan client menggunakan jQuery (siang)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirnobrain/twatt.git"
+  },
+  "author": "Bambang Kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirnobrain/twatt/issues"
+  },
+  "homepage": "https://github.com/sirnobrain/twatt#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "oauth": "^0.9.15",
+    "query-string": "^5.0.0"
+  }
+}
