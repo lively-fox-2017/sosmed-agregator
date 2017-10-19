@@ -6,11 +6,13 @@ const tweetCards = (tweet) => {
 	const createdAt = tweet.createdAt;
 	let hashtags = '';
 	if (tweet.hashtags) {
+		hashtags += `<span class="level-left">`;
 		tweet.hashtags.forEach(hashtag => {
 			hashtags += `<span class="tw-hashtag"> ${hashtag} </span>`
 		});
+		hashtags += `</span>`
 	} else {
-		hashtags = `<span class="tw-hashtag"> #nohashtag </span>`
+		hashtags = ``
 	}
 
 	const component = 
@@ -27,8 +29,8 @@ const tweetCards = (tweet) => {
 	      ${content}
 	    </div>
 	  </div>
-	  <footer class="card-footer level">
-	    <p class="card-footer-item level-left"><span class="tw-date">${createdAt}</span>${hashtags}</p>
+	  <footer class="card-footer">
+	    <p class="card-footer-item level">${hashtags}<span class="tw-date level-right">${createdAt}</span></p>
 	  </footer>
 	</div>
 	`

@@ -75,9 +75,14 @@ nav h1 span {
 .tw-date {
 	font-size: 10px;
 	color: rgb(43, 158, 235);
+	margin-right: 8px;
 }
 .tw-hashtag {
 	font-size: 10px;
 	color: rgb(43, 158, 235);
 	font-weight: bold;
+	margin-right: 4px;
+}
+.tw-hashtag:last-child {
+	margin-right: 0;
 }
