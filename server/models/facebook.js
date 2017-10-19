@@ -30,7 +30,7 @@ class Facebook {
         appId: 507229999655345,
         appSecret: 'dafb592c0501e8bb92072d1e0c700607'
       })
-      fb.api(`/me?fields=birthday,name,email`, function(response) {
+      fb.api(`/me/feed`, function(response) {
         if (response && response.error) {
           if (response.error.code === 'ETIMEDOUT') {
             console.log('request timeout');
@@ -44,6 +44,29 @@ class Facebook {
           resolve(response)
         }
       })
+    })
+  }
+  static post(accessToken, id, message) {
+    return new Promise((resolve, reject)=>{
+      var fb = new FB.Facebook({
+        accessToken: accessToken,
+        appId: 507229999655345,
+        appSecret: 'dafb592c0501e8bb92072d1e0c700607'
+      })
+      fb.api(
+          "/me/feed",
+          "POST",
+          {
+              "message": message
+          },
+          function (response) {
+            console.log(response)
+            if (response && !response.error) {
+              /* handle the result */
+              resolve(response);
+            }
+          }
+      );
     })
   }
 }

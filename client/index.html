@@ -6,61 +6,170 @@
   <title>HOME</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <div class="input-field">
-          <i class="material-icons prefix">search</i>
-          <input type="text" id="search" name="search">
-          <label for="icon_prefix">Search for Tweet</label>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '507229999655345',
+        xfbml: true,
+        version: 'v2.10'
+      });
+      FB.AppEvents.logPageView();
+      // FB.getLoginStatus(function(response) {
+      //   console.log(response)
+      //   statusChangeCallback(response);
+      // });
+    };
+
+    function statusChangeCallback(response) {
+      console.log(response)
+      if (response.status == 'connected') {
+        axios.post('http://localhost:3000/api/facebook/login', {
+            accessToken: response.authResponse.accessToken,
+          })
+          .then(function(res) {
+            localStorage.setItem('accessToken', res.data);
+            isLogin();
+          })
+          .catch(function(error) {
+            console.log(error);
+          });
+      }
+    }
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <div class="main">
+    <div class="container" style="margin-top:10px">
+      <div class="row">
+        <div class="col s12">
+          <div class="row">
+            <div class="col s10">
+              <div class="input-field">
+                <i class="material-icons prefix">search</i>
+                <input type="text" id="search" name="search">
+                <label for="icon_prefix">Search for Tweet</label>
+              </div>
+            </div>
+            <div class="col s2">
+              <button id="tweet" class="waves-effect waves-light btn" onclick="logout()">Logout</button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="divider"></div>
-      <div class="col s6">
-        <ul class="collection">
-          <li class="collection-item">Alvin</li>
-          <li class="collection-item">Alvin</li>
-          <li class="collection-item">Alvin</li>
-          <li class="collection-item">Alvin</li>
-        </ul>
-      </div>
-      <div class="divider"></div>
-      <div class="col s6">
-        <div class="input-field">
-          <textarea class="materialize-textarea" id="textarea1"></textarea>
-          <label for="textarea1">Tweet</label>
+        <div class="divider"></div>
+        <div class="col s6">
+          <ul class="collection">
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+          </ul>
         </div>
-        <div class="input-field">
-          <button id="tweet" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Tweet !</button>
+        <div class="divider"></div>
+        <div class="col s6">
+          <div class="input-field">
+            <textarea class="materialize-textarea" id="textarea1"></textarea>
+            <label for="textarea1">Your Status Here</label>
+          </div>
+          <div class="row">
+            <div class="col s6">
+              <div class="input-field">
+                <button id="tweet" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Tweet !</button>
+              </div>
+            </div>
+            <div class="col s6">
+              <div class="input-field">
+                <button id="post" class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Post !</button>
+              </div>
+            </div>
+          </div>
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
       </div>
     </div>
   </div>
+  <div class="login">
+    <div class="container">
+      <div class="row">
+        <div class="col s12" style="display:flex;align-items:center;justify-content:center;height:100vh">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title center-align"><b>Ian Twatt</b></span><br>
+              <p>Please login first to use this apps</p>
+            </div>
+            <div class="card-action" style="display:flex;align-items:center;justify-content:center;">
+              <button class='btn btn-primary' id='aaaa'>Sign In With Facebook</button>
+              <!-- <div class="fb-login-button" data-scope="public_profile,user_birthday,email" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false">
+
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
 <script>
+  $('button#aaaa').on('click', function(e) {
+    e.preventDefault()
+    FB.login(function(response) {
+      FB.getLoginStatus(function(response) {
+        console.log(response)
+        statusChangeCallback(response);
+      });
+    }, {
+      scope: 'email,user_likes,public_profile,user_birthday,publish_actions'
+    });
+  })
+
+  function isLogin() {
+    if (localStorage.getItem('accessToken')) {
+      $('div.main').show();
+      $('div.login').hide();
+      // $.ajax({
+      //   url: 'http://localhost:3000/api/twitter/timeline',
+      //   data: {
+      //     format: 'json'
+      //   },
+      //   error: function(err) {
+      //     console.log(err);
+      //   },
+      //   success: function(data) {
+      //     $('ul.collection').empty();
+      //     data.forEach(d => {
+      //       $('ul.collection').append('<li class="collection-item">' + d.text + '</li>');
+      //     })
+      //   },
+      //   type: 'GET'
+      // })
+    } else {
+      $('div.main').hide();
+      $('div.login').show();
+    }
+  }
+
+  function logout() {
+    localStorage.removeItem('accessToken');
+    location.reload();
+  }
   $(document).ready(function() {
     $('#textarea1').trigger('autoresize');
-    $.ajax({
-      url: 'http://localhost:3000/api/twitter/timeline',
-      data: {
-        format: 'json'
-      },
-      error: function(err) {
-        console.log(err);
-      },
-      success: function(data) {
-        $('ul.collection').empty();
-        data.forEach(d => {
-          $('ul.collection').append('<li class="collection-item">'+d.text+'</li>');
-        })
-      },
-      type: 'GET'
-    })
+    isLogin()
   });
   $('input#search').keypress(function(e) {
     if (e.which == 13) {
@@ -88,6 +197,22 @@
       url: 'http://localhost:3000/api/twitter/tweet',
       data: {
         tweet: $('textarea#textarea1').val()
+      },
+      error: function(err) {
+        console.log(err);
+      },
+      success: function(data) {
+        console.log(data);
+      },
+      type: 'POST'
+    })
+  })
+  $('button#post').click(function(e) {
+    $.ajax({
+      url: 'http://localhost:3000/api/facebook/post',
+      data: {
+        post: $('textarea#textarea1').val(),
+        accessToken:localStorage.getItem('accessToken')
       },
       error: function(err) {
         console.log(err);
