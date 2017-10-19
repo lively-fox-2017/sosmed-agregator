@@ -26,18 +26,18 @@
                 xfbml            : true,
                 version          : 'v2.10'
                 });
-                // FB.AppEvents.logPageView();
+                FB.AppEvents.logPageView();
 
-                // FB.getLoginStatus(function(response) {
-                //     console.log(response)
-                //     statusChangeCallback(response);
-                // });
+                FB.getLoginStatus(function(response) {
+                    console.log(response)
+                    statusChangeCallback(response);
+                });
 
-                // function checkLoginState() {
-                //     FB.getLoginStatus(function(response) {
-                //         statusChangeCallback(response);
-                //     });
-                // }
+                function checkLoginState() {
+                    FB.getLoginStatus(function(response) {
+                        statusChangeCallback(response);
+                    });
+                }
             };
             
             (function(d, s, id){
