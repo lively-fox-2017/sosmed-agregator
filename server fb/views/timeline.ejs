@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>URL</th>
+        <th>Query</th>
+      </tr>
+      <%tweets.forEach(t => {%>
+        <tr>
+          <td><%=t.text%></td>
+          <td><%=t.url%></td>
+          <td><%=t.query%></td>
+        </tr>
+      <%})%>
+    </table>
+  </body>
+</html>
