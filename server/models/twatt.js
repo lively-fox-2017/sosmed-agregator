@@ -22,7 +22,7 @@ const search = (keyword) => {
 			if (err) reject(err);
 			data = JSON.parse(data).statuses.map(datum => {
 				return {
-					createdAt: datum.createdAt,
+					createdAt: datum.created_at,
 					text: datum.text,
 					hashtags: datum.entities.hashtags.length > 0 ? datum.entities.hashtags.map(hashtag => hashtag.text) : null,
 					media: datum.entities.media ? datum.entities.media.map(medium => ({url: medium.media_url_https, type: medium.type})) : null,
@@ -46,7 +46,7 @@ const timeline = () => {
 			if (err) reject(err);
 			data = JSON.parse(data).map(datum => {
 				return {
-					createdAt: datum.createdAt,
+					createdAt: datum.created_at,
 					text: datum.text,
 					hashtags: datum.entities.hashtags.length > 0 ? datum.entities.hashtags.map(hashtag => hashtag.text) : null,
 					media: datum.entities.media ? datum.entities.media.map(medium => ({url: medium.media_url_https, type: medium.type})) : null,
@@ -70,7 +70,7 @@ const tweet = (status) => {
 			if (err) reject(err);
 			data = JSON.parse(data);
 			data = {
-				createdAt: data.createdAt,
+				createdAt: data.created_at,
 				text: data.text,
 				hashtags: data.entities.hashtags.length > 0 ? data.entities.hashtags.map(hashtag => hashtag.text) : null,
 				user: {

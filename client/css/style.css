@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#left-panel {
+	width: 38.5%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-height: 100vh;
+	padding: 32px 64px;
+	background: rgb(43, 158, 235);
+	color: #fafafa;
+}
+
+#right-panel {
+	width: 61.5%;
+	margin-left: 38.5%;
+	padding: 32px 64px;
+}
+
+nav {
+	border-bottom: 1px solid #222;
+}
+
+.circular-btn {
+	border-radius: 100px;
+	width: 100%;
+}
+
+.label.centered {
+	text-align: center;
+}
+
+.input-bg-tw {
+	background: rgba(255, 255, 255, 0.05);
+	border: none;
+	color: #fafafa;
+}
+.input-bg-tw::placeholder {
+	color: #fafafa;
+}
+
+.input-bg-tw .icon .fa {
+	color: #fafafa;
+}
