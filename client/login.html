@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '507229999655345',
+        xfbml: true,
+        version: 'v2.10'
+      });
+      FB.AppEvents.logPageView();
+      FB.getLoginStatus(function(response) {
+        console.log(response)
+        statusChangeCallback(response);
+      });
+    };
+
+    function statusChangeCallback(response) {
+      if (response.status == 'connected') {
+        console.log('axio')
+        axios.post('http://localhost:3000/api/facebook/login', {
+            accessToken: response.authResponse.accessToken,
+          })
+          .then(function(res) {
+            console.log(res);
+          })
+          .catch(function(error) {
+            console.log(error);
+          });
+      }
+    }
+
+    function login() {
+      FB.login(function(response) {
+        statusChangeCallback(response);
+      },{scope: 'email,user_likes,public_profile,user_birthday'});
+    }
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <div id="fb-root">
+
+  </div>
+  <div class="fb-login-button" data-scope="public_profile,user_birthday,email" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true">
+
+  </div>
+  <button onclick="login()" data-scope="public_profile,user_birthday,read_mailbox">Login</button>
+</body>
+
+</html>
