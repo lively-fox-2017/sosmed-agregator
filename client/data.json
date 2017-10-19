@@ -1,0 +1,2677 @@
+[
+    {
+        "created_at": "Wed Oct 18 15:09:47 +0000 2017",
+        "id": 920668236273696800,
+        "id_str": "920668236273696768",
+        "text": "Pesawat Milik Pemda Mimika Tergelincir di Bandara Sentani, 4 Luka https://t.co/yZqupCdhSR https://t.co/Rvs9KgGi8Q",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/yZqupCdhSR",
+                    "expanded_url": "http://detik.id/VX0KJC",
+                    "display_url": "detik.id/VX0KJC",
+                    "indices": [
+                        66,
+                        89
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 920668234730238000,
+                    "id_str": "920668234730237952",
+                    "indices": [
+                        90,
+                        113
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbe4a8U8AA8BW5.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbe4a8U8AA8BW5.jpg",
+                    "url": "https://t.co/Rvs9KgGi8Q",
+                    "display_url": "pic.twitter.com/Rvs9KgGi8Q",
+                    "expanded_url": "https://twitter.com/detikcom/status/920668236273696768/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 917,
+                            "h": 515,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 515,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 382,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 920668234730238000,
+                    "id_str": "920668234730237952",
+                    "indices": [
+                        90,
+                        113
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbe4a8U8AA8BW5.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbe4a8U8AA8BW5.jpg",
+                    "url": "https://t.co/Rvs9KgGi8Q",
+                    "display_url": "pic.twitter.com/Rvs9KgGi8Q",
+                    "expanded_url": "https://twitter.com/detikcom/status/920668236273696768/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 917,
+                            "h": 515,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 515,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 382,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.detik.com/\" rel=\"nofollow\">detikcommunity</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 69183155,
+            "id_str": "69183155",
+            "name": "detikcom",
+            "screen_name": "detikcom",
+            "location": "Jakarta, Indonesia",
+            "description": "Official Twitter of https://t.co/oOBkZ1EQMA. redaksi@detik.com | promosi@detik.com | Android: https://t.co/uBAYnisH9r iPhone: https://t.co/36uDqdyxKN",
+            "url": "https://t.co/oOBkZ1EQMA",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                20,
+                                43
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/uBAYnisH9r",
+                            "expanded_url": "http://detik.com/android",
+                            "display_url": "detik.com/android",
+                            "indices": [
+                                94,
+                                117
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/36uDqdyxKN",
+                            "expanded_url": "http://detik.com/iphone",
+                            "display_url": "detik.com/iphone",
+                            "indices": [
+                                126,
+                                149
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 14655433,
+            "friends_count": 34,
+            "listed_count": 13290,
+            "created_at": "Thu Aug 27 03:03:05 +0000 2009",
+            "favourites_count": 32,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 1198824,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/69183155/1503299213",
+            "profile_link_color": "088253",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E3E2DE",
+            "profile_text_color": "634047",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:09:15 +0000 2017",
+        "id": 920668102559334400,
+        "id_str": "920668102559334401",
+        "text": "BBM Satu Harga Segera Diberlakukan di Enam Daerah Ini https://t.co/J67eh6qppy",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/J67eh6qppy",
+                    "expanded_url": "http://dlvr.it/PwM6Yk",
+                    "display_url": "dlvr.it/PwM6Yk",
+                    "indices": [
+                        54,
+                        77
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://viva.co.id\" rel=\"nofollow\">VIVA.co.id</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 41730943,
+            "id_str": "41730943",
+            "name": "VIVAcoid",
+            "screen_name": "VIVAcoid",
+            "location": "Jakarta, Indonesia",
+            "description": "Akun Twitter resmi portal https://t.co/JNYbfdcHaU",
+            "url": "https://t.co/vnAw8SFPGO",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/vnAw8SFPGO",
+                            "expanded_url": "http://www.viva.co.id",
+                            "display_url": "viva.co.id",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/JNYbfdcHaU",
+                            "expanded_url": "http://VIVA.CO.ID",
+                            "display_url": "VIVA.CO.ID",
+                            "indices": [
+                                26,
+                                49
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 3937289,
+            "friends_count": 47,
+            "listed_count": 5738,
+            "created_at": "Fri May 22 02:19:27 +0000 2009",
+            "favourites_count": 81,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 901819,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9E0B0F",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/565058550234243072/WtJpVpwi.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/565058550234243072/WtJpVpwi.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/884731229354033152/a9Wl1ISH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/884731229354033152/a9Wl1ISH_normal.jpg",
+            "profile_link_color": "0099CC",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F6F6F6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:08:42 +0000 2017",
+        "id": 920667964688478200,
+        "id_str": "920667964688478208",
+        "text": "How Guerilla Filmmaking Works https://t.co/ZYGrJTIBJC https://t.co/bvNpkkr1bU",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/ZYGrJTIBJC",
+                    "expanded_url": "http://trib.al/tc7P9J7",
+                    "display_url": "trib.al/tc7P9J7",
+                    "indices": [
+                        30,
+                        53
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 920667961328795600,
+                    "id_str": "920667961328795648",
+                    "indices": [
+                        54,
+                        77
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbeogcWAAAhBLa.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbeogcWAAAhBLa.jpg",
+                    "url": "https://t.co/bvNpkkr1bU",
+                    "display_url": "pic.twitter.com/bvNpkkr1bU",
+                    "expanded_url": "https://twitter.com/HowStuffWorks/status/920667964688478208/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1024,
+                            "h": 678,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 678,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 450,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 920667961328795600,
+                    "id_str": "920667961328795648",
+                    "indices": [
+                        54,
+                        77
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbeogcWAAAhBLa.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbeogcWAAAhBLa.jpg",
+                    "url": "https://t.co/bvNpkkr1bU",
+                    "display_url": "pic.twitter.com/bvNpkkr1bU",
+                    "expanded_url": "https://twitter.com/HowStuffWorks/status/920667964688478208/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1024,
+                            "h": 678,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 678,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 450,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 14850955,
+            "id_str": "14850955",
+            "name": "HowStuffWorks",
+            "screen_name": "HowStuffWorks",
+            "location": "Atlanta, GA",
+            "description": "Home of your favorite podcasts: @SYSKPodcast | @MissedinHistory | @BLOWtheMIND | @MomStuffPodcast | @PTGenius_HSW | @ConspiracyStuff | @TechStuffHSW and more!",
+            "url": "http://t.co/3BzhUzSTha",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/3BzhUzSTha",
+                            "expanded_url": "http://www.howstuffworks.com",
+                            "display_url": "howstuffworks.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 128696,
+            "friends_count": 929,
+            "listed_count": 4477,
+            "created_at": "Wed May 21 01:51:54 +0000 2008",
+            "favourites_count": 1097,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 34714,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/464876932295692288/49jIYirM_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/464876932295692288/49jIYirM_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/14850955/1494275967",
+            "profile_link_color": "0094D3",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Oct 18 15:08:04 +0000 2017",
+        "id": 920667803803312100,
+        "id_str": "920667803803312129",
+        "text": "Selain Alam, Kini Raja Ampat Kembangkan Wisata Olahraga https://t.co/9TKSbEaxap",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/9TKSbEaxap",
+                    "expanded_url": "http://travel.kompas.com/read/2017/10/18/220300727/selain-alam-kini-raja-ampat-kembangkan-wisata-ola",
+                    "display_url": "travel.kompas.com/read/2017/10/1…",
+                    "indices": [
+                        56,
+                        79
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:08:03 +0000 2017",
+        "id": 920667799646715900,
+        "id_str": "920667799646715904",
+        "text": "SOP Terbit, Penyaluran Kredit Rumah Syariah Diprediksi Meningkat https://t.co/pBS9DMkpMB",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/pBS9DMkpMB",
+                    "expanded_url": "http://properti.kompas.com/read/2017/10/18/220000621/sop-terbit-penyaluran-kredit-rumah-syariah-dipr",
+                    "display_url": "properti.kompas.com/read/2017/10/1…",
+                    "indices": [
+                        65,
+                        88
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:08:02 +0000 2017",
+        "id": 920667795624362000,
+        "id_str": "920667795624361985",
+        "text": "Kayamba Ingatkan Lini Belakang Sriwijaya FC Waspadai Gonzales https://t.co/BMMzawEMgO",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/BMMzawEMgO",
+                    "expanded_url": "http://bola.kompas.com/read/2017/10/18/22000048/kayamba-ingatkan-lini-belakang-sriwijaya-fc-waspadai",
+                    "display_url": "bola.kompas.com/read/2017/10/1…",
+                    "indices": [
+                        62,
+                        85
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:08:01 +0000 2017",
+        "id": 920667793317511200,
+        "id_str": "920667793317511168",
+        "text": "Terancam Tak Ikut Pemilu 2019, Partai Idaman Siap Mengadu ke Bawaslu https://t.co/6scRyPDWI3",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/6scRyPDWI3",
+                    "expanded_url": "http://nasional.kompas.com/read/2017/10/18/21593721/terancam-tak-ikut-pemilu-2019-partai-idaman-siap",
+                    "display_url": "nasional.kompas.com/read/2017/10/1…",
+                    "indices": [
+                        69,
+                        92
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:07:07 +0000 2017",
+        "id": 920667564769808400,
+        "id_str": "920667564769808385",
+        "text": "Kamu Ingin Menjadi Dokter? Pikirkan 2 Hal Ini \nhttps://t.co/RQ7tlvPUuK",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/RQ7tlvPUuK",
+                    "expanded_url": "http://www.kompasiana.com/dokterforamen/59e3e9cdc226f95bff430f92/kamu-ingin-jadi-dokter-pikir-lagi-yuk?utm_source=Twitter&utm_medium=Social&utm_campaign=Kompasiana",
+                    "display_url": "kompasiana.com/dokterforamen/…",
+                    "indices": [
+                        47,
+                        70
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.kompasiana.com\" rel=\"nofollow\">Kompasiana</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23786106,
+            "id_str": "23786106",
+            "name": "Beyond Blogging",
+            "screen_name": "kompasiana",
+            "location": "Indonesia",
+            "description": "Official Twitter Page of Kompasiana",
+            "url": "https://t.co/jxIhQsTN3F",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/jxIhQsTN3F",
+                            "expanded_url": "http://www.kompasiana.com",
+                            "display_url": "kompasiana.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 863832,
+            "friends_count": 123,
+            "listed_count": 1437,
+            "created_at": "Wed Mar 11 16:27:45 +0000 2009",
+            "favourites_count": 54,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 352335,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1D67DE",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/404430140/logo_FB_kompasiana.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/404430140/logo_FB_kompasiana.jpg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/903956074536960000/2bccVXyr_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/903956074536960000/2bccVXyr_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23786106/1504354888",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:07:06 +0000 2017",
+        "id": 920667563368910800,
+        "id_str": "920667563368910849",
+        "text": "Menjadi Blogger yang Melek Dunia Kesehatan dan Nutrisi, Mau? \nhttps://t.co/nrelOMwyI5",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nrelOMwyI5",
+                    "expanded_url": "http://www.kompasiana.com/kompasiana/59ce5f9e2ba8d12eb648be55/menjadi-blogger-yang-melek-dunia-kesehatan-dan-nutrisi-mau?utm_source=Twitter&utm_medium=Social&utm_campaign=Kompasiana",
+                    "display_url": "kompasiana.com/kompasiana/59c…",
+                    "indices": [
+                        62,
+                        85
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.kompasiana.com\" rel=\"nofollow\">Kompasiana</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23786106,
+            "id_str": "23786106",
+            "name": "Beyond Blogging",
+            "screen_name": "kompasiana",
+            "location": "Indonesia",
+            "description": "Official Twitter Page of Kompasiana",
+            "url": "https://t.co/jxIhQsTN3F",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/jxIhQsTN3F",
+                            "expanded_url": "http://www.kompasiana.com",
+                            "display_url": "kompasiana.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 863832,
+            "friends_count": 123,
+            "listed_count": 1437,
+            "created_at": "Wed Mar 11 16:27:45 +0000 2009",
+            "favourites_count": 54,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 352335,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1D67DE",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/404430140/logo_FB_kompasiana.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/404430140/logo_FB_kompasiana.jpg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/903956074536960000/2bccVXyr_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/903956074536960000/2bccVXyr_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23786106/1504354888",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:05:41 +0000 2017",
+        "id": 920667203178963000,
+        "id_str": "920667203178962946",
+        "text": "2021, RI Diprediksi Jadi Produsen Listrik Panas Bumi Terbesar di Dunia https://t.co/ns8lU4ZvdW via @detikfinance https://t.co/EIQpK0odlF",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "detikfinance",
+                    "name": "DetikFinance",
+                    "id": 135795460,
+                    "id_str": "135795460",
+                    "indices": [
+                        99,
+                        112
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/ns8lU4ZvdW",
+                    "expanded_url": "http://detik.id/6PU8xc",
+                    "display_url": "detik.id/6PU8xc",
+                    "indices": [
+                        71,
+                        94
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 920667201287229400,
+                    "id_str": "920667201287229440",
+                    "indices": [
+                        113,
+                        136
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbd8REUEAANAnf.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbd8REUEAANAnf.jpg",
+                    "url": "https://t.co/EIQpK0odlF",
+                    "display_url": "pic.twitter.com/EIQpK0odlF",
+                    "expanded_url": "https://twitter.com/detikcom/status/920667203178962946/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 920667201287229400,
+                    "id_str": "920667201287229440",
+                    "indices": [
+                        113,
+                        136
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbd8REUEAANAnf.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbd8REUEAANAnf.jpg",
+                    "url": "https://t.co/EIQpK0odlF",
+                    "display_url": "pic.twitter.com/EIQpK0odlF",
+                    "expanded_url": "https://twitter.com/detikcom/status/920667203178962946/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.detik.com/\" rel=\"nofollow\">detikcommunity</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 69183155,
+            "id_str": "69183155",
+            "name": "detikcom",
+            "screen_name": "detikcom",
+            "location": "Jakarta, Indonesia",
+            "description": "Official Twitter of https://t.co/oOBkZ1EQMA. redaksi@detik.com | promosi@detik.com | Android: https://t.co/uBAYnisH9r iPhone: https://t.co/36uDqdyxKN",
+            "url": "https://t.co/oOBkZ1EQMA",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                20,
+                                43
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/uBAYnisH9r",
+                            "expanded_url": "http://detik.com/android",
+                            "display_url": "detik.com/android",
+                            "indices": [
+                                94,
+                                117
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/36uDqdyxKN",
+                            "expanded_url": "http://detik.com/iphone",
+                            "display_url": "detik.com/iphone",
+                            "indices": [
+                                126,
+                                149
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 14655433,
+            "friends_count": 34,
+            "listed_count": 13290,
+            "created_at": "Thu Aug 27 03:03:05 +0000 2009",
+            "favourites_count": 32,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 1198824,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/69183155/1503299213",
+            "profile_link_color": "088253",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E3E2DE",
+            "profile_text_color": "634047",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 8,
+        "favorite_count": 6,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:05:16 +0000 2017",
+        "id": 920667099714015200,
+        "id_str": "920667099714015232",
+        "text": "Mending Punya Teman Penurut atau Teman yang Banyak Ngomong? https://t.co/IvuwdqVaaA",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/IvuwdqVaaA",
+                    "expanded_url": "http://qoo.ly/ikfbw",
+                    "display_url": "qoo.ly/ikfbw",
+                    "indices": [
+                        60,
+                        83
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://social.socio.com.my\" rel=\"nofollow\">socio.com.my</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23786106,
+            "id_str": "23786106",
+            "name": "Beyond Blogging",
+            "screen_name": "kompasiana",
+            "location": "Indonesia",
+            "description": "Official Twitter Page of Kompasiana",
+            "url": "https://t.co/jxIhQsTN3F",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/jxIhQsTN3F",
+                            "expanded_url": "http://www.kompasiana.com",
+                            "display_url": "kompasiana.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 863832,
+            "friends_count": 123,
+            "listed_count": 1437,
+            "created_at": "Wed Mar 11 16:27:45 +0000 2009",
+            "favourites_count": 54,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 352335,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1D67DE",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/404430140/logo_FB_kompasiana.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/404430140/logo_FB_kompasiana.jpg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/903956074536960000/2bccVXyr_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/903956074536960000/2bccVXyr_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23786106/1504354888",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:05:15 +0000 2017",
+        "id": 920667095372677100,
+        "id_str": "920667095372677120",
+        "text": "PDIP Sidoarjo Laporkan Akun Medsos yang Dinilai Menebar Kebencian https://t.co/RsaKpTj9OM https://t.co/pUAQ8khKNB",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/RsaKpTj9OM",
+                    "expanded_url": "http://detik.id/6id2hi",
+                    "display_url": "detik.id/6id2hi",
+                    "indices": [
+                        66,
+                        89
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 920667093019668500,
+                    "id_str": "920667093019668480",
+                    "indices": [
+                        90,
+                        113
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbd19vUMAA2Ze-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbd19vUMAA2Ze-.jpg",
+                    "url": "https://t.co/pUAQ8khKNB",
+                    "display_url": "pic.twitter.com/pUAQ8khKNB",
+                    "expanded_url": "https://twitter.com/detikcom/status/920667095372677120/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 917,
+                            "h": 688,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 688,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 920667093019668500,
+                    "id_str": "920667093019668480",
+                    "indices": [
+                        90,
+                        113
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbd19vUMAA2Ze-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbd19vUMAA2Ze-.jpg",
+                    "url": "https://t.co/pUAQ8khKNB",
+                    "display_url": "pic.twitter.com/pUAQ8khKNB",
+                    "expanded_url": "https://twitter.com/detikcom/status/920667095372677120/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 917,
+                            "h": 688,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 688,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.detik.com/\" rel=\"nofollow\">detikcommunity</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 69183155,
+            "id_str": "69183155",
+            "name": "detikcom",
+            "screen_name": "detikcom",
+            "location": "Jakarta, Indonesia",
+            "description": "Official Twitter of https://t.co/oOBkZ1EQMA. redaksi@detik.com | promosi@detik.com | Android: https://t.co/uBAYnisH9r iPhone: https://t.co/36uDqdyxKN",
+            "url": "https://t.co/oOBkZ1EQMA",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                20,
+                                43
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/uBAYnisH9r",
+                            "expanded_url": "http://detik.com/android",
+                            "display_url": "detik.com/android",
+                            "indices": [
+                                94,
+                                117
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/36uDqdyxKN",
+                            "expanded_url": "http://detik.com/iphone",
+                            "display_url": "detik.com/iphone",
+                            "indices": [
+                                126,
+                                149
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 14655433,
+            "friends_count": 34,
+            "listed_count": 13290,
+            "created_at": "Thu Aug 27 03:03:05 +0000 2009",
+            "favourites_count": 32,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 1198824,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/69183155/1503299213",
+            "profile_link_color": "088253",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E3E2DE",
+            "profile_text_color": "634047",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 3,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:05:02 +0000 2017",
+        "id": 920667041111199700,
+        "id_str": "920667041111199744",
+        "text": "#UCL stars Griezmann, Saúl Ñíguez &amp; Carrasco all start. Star player for Atlético against Qarabağ will be ____ https://t.co/rmuSSIJKGa",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "UCL",
+                    "indices": [
+                        0,
+                        4
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 920666536347689000,
+                    "id_str": "920666536347688961",
+                    "indices": [
+                        114,
+                        137
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbdVj-X4AEFBJX.png",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbdVj-X4AEFBJX.png",
+                    "url": "https://t.co/rmuSSIJKGa",
+                    "display_url": "pic.twitter.com/rmuSSIJKGa",
+                    "expanded_url": "https://twitter.com/ChampionsLeague/status/920667041111199744/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 675,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1920,
+                            "h": 1080,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 920666536347689000,
+                    "id_str": "920666536347688961",
+                    "indices": [
+                        114,
+                        137
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbdVj-X4AEFBJX.png",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbdVj-X4AEFBJX.png",
+                    "url": "https://t.co/rmuSSIJKGa",
+                    "display_url": "pic.twitter.com/rmuSSIJKGa",
+                    "expanded_url": "https://twitter.com/ChampionsLeague/status/920667041111199744/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 675,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1920,
+                            "h": 1080,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 627673190,
+            "id_str": "627673190",
+            "name": "Champions League",
+            "screen_name": "ChampionsLeague",
+            "location": "Nyon, Vaud",
+            "description": "The official home of the #UCL on Twitter. Spanish: @LigadeCampeones U19: @UEFAYouthLeague YouTube: https://t.co/V3LrHK72IR",
+            "url": "https://t.co/NjSAMB7hrD",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/NjSAMB7hrD",
+                            "expanded_url": "http://www.uefa.com/uefachampionsleague",
+                            "display_url": "uefa.com/uefachampionsl…",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/V3LrHK72IR",
+                            "expanded_url": "http://uefa.tv",
+                            "display_url": "uefa.tv",
+                            "indices": [
+                                99,
+                                122
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 18330242,
+            "friends_count": 510,
+            "listed_count": 16946,
+            "created_at": "Thu Jul 05 19:43:40 +0000 2012",
+            "favourites_count": 1082,
+            "utc_offset": 7200,
+            "time_zone": "Amsterdam",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 51576,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": true,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/616679637687648258/trkDBuou.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/616679637687648258/trkDBuou.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/616969183948054528/mF1Oxcly_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/616969183948054528/mF1Oxcly_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/627673190/1496665577",
+            "profile_link_color": "3B94D9",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 36,
+        "favorite_count": 144,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "ro"
+    },
+    {
+        "created_at": "Wed Oct 18 15:04:59 +0000 2017",
+        "id": 920667028104519700,
+        "id_str": "920667028104519685",
+        "text": "Warga Jombang Temukan Potongan Tangan Manusia di Kebun Tebu https://t.co/rAqgFxYNbC https://t.co/Hqg18iaiKe",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/rAqgFxYNbC",
+                    "expanded_url": "http://detik.id/Vpa6xv",
+                    "display_url": "detik.id/Vpa6xv",
+                    "indices": [
+                        60,
+                        83
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 920667025801801700,
+                    "id_str": "920667025801801728",
+                    "indices": [
+                        84,
+                        107
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbdyDVU8AAXixr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbdyDVU8AAXixr.jpg",
+                    "url": "https://t.co/Hqg18iaiKe",
+                    "display_url": "pic.twitter.com/Hqg18iaiKe",
+                    "expanded_url": "https://twitter.com/detikcom/status/920667028104519685/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 920667025801801700,
+                    "id_str": "920667025801801728",
+                    "indices": [
+                        84,
+                        107
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DMbdyDVU8AAXixr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DMbdyDVU8AAXixr.jpg",
+                    "url": "https://t.co/Hqg18iaiKe",
+                    "display_url": "pic.twitter.com/Hqg18iaiKe",
+                    "expanded_url": "https://twitter.com/detikcom/status/920667028104519685/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 917,
+                            "h": 516,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.detik.com/\" rel=\"nofollow\">detikcommunity</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 69183155,
+            "id_str": "69183155",
+            "name": "detikcom",
+            "screen_name": "detikcom",
+            "location": "Jakarta, Indonesia",
+            "description": "Official Twitter of https://t.co/oOBkZ1EQMA. redaksi@detik.com | promosi@detik.com | Android: https://t.co/uBAYnisH9r iPhone: https://t.co/36uDqdyxKN",
+            "url": "https://t.co/oOBkZ1EQMA",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/oOBkZ1EQMA",
+                            "expanded_url": "http://www.detik.com",
+                            "display_url": "detik.com",
+                            "indices": [
+                                20,
+                                43
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/uBAYnisH9r",
+                            "expanded_url": "http://detik.com/android",
+                            "display_url": "detik.com/android",
+                            "indices": [
+                                94,
+                                117
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/36uDqdyxKN",
+                            "expanded_url": "http://detik.com/iphone",
+                            "display_url": "detik.com/iphone",
+                            "indices": [
+                                126,
+                                149
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 14655433,
+            "friends_count": 34,
+            "listed_count": 13290,
+            "created_at": "Thu Aug 27 03:03:05 +0000 2009",
+            "favourites_count": 32,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 1198824,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/636030260/mjmpvqcybkjev10lox2v.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767570972496900096/dvy8AZKH_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/69183155/1503299213",
+            "profile_link_color": "088253",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E3E2DE",
+            "profile_text_color": "634047",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 4,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:04:04 +0000 2017",
+        "id": 920666796096548900,
+        "id_str": "920666796096548866",
+        "text": "Warga Dua Desa di Bima Bentrok, Dua Orang Terluka https://t.co/uHAPWHlEVS",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/uHAPWHlEVS",
+                    "expanded_url": "http://regional.kompas.com/read/2017/10/18/21585401/warga-dua-desa-di-bima-bentrok-dua-orang-terluka",
+                    "display_url": "regional.kompas.com/read/2017/10/1…",
+                    "indices": [
+                        50,
+                        73
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 3,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:04:03 +0000 2017",
+        "id": 920666791881228300,
+        "id_str": "920666791881228288",
+        "text": "Gas Beracun Tercium Kali Kedua Jelang Pertemuan Uni Eropa https://t.co/UIVAVFKZs1",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/UIVAVFKZs1",
+                    "expanded_url": "http://kom.ps/AFyINr",
+                    "display_url": "kom.ps/AFyINr",
+                    "indices": [
+                        58,
+                        81
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:04:02 +0000 2017",
+        "id": 920666787884146700,
+        "id_str": "920666787884146689",
+        "text": "BRI Pacu Kinerja Kuartal IV 2017 https://t.co/lrJbJlJJJW",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/lrJbJlJJJW",
+                    "expanded_url": "http://kom.ps/AFyINq",
+                    "display_url": "kom.ps/AFyINq",
+                    "indices": [
+                        33,
+                        56
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://my.kompas.com\" rel=\"nofollow\">MyKompas</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:03:28 +0000 2017",
+        "id": 920666645911175200,
+        "id_str": "920666645911175168",
+        "text": "Persipura Menang, Bali United dan PSM Diharapkan Terpeleset - https://t.co/4VOOkFAhXw https://t.co/4wTeHEyQdl",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4VOOkFAhXw",
+                    "expanded_url": "http://Kompas.com",
+                    "display_url": "Kompas.com",
+                    "indices": [
+                        62,
+                        85
+                    ]
+                },
+                {
+                    "url": "https://t.co/4wTeHEyQdl",
+                    "expanded_url": "http://ebx.sh/2yvsjNv",
+                    "display_url": "ebx.sh/2yvsjNv",
+                    "indices": [
+                        86,
+                        109
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://www.echobox.com\" rel=\"nofollow\">Echobox Social</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 23343960,
+            "id_str": "23343960",
+            "name": "Kompas.com",
+            "screen_name": "kompascom",
+            "location": "Indonesia",
+            "description": "Ketika Perbincangan Dimulai | social@kompas.com | Jernih Melihat Dunia",
+            "url": "https://t.co/69oEiSoI5p",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/69oEiSoI5p",
+                            "expanded_url": "http://www.kompas.com",
+                            "display_url": "kompas.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6819483,
+            "friends_count": 26,
+            "listed_count": 10611,
+            "created_at": "Sun Mar 08 19:32:04 +0000 2009",
+            "favourites_count": 99,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 934480,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1B3567",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890096111/b15892f583c76d066073fb8646d233da.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/908598486219636736/eot1rS2N_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23343960/1501139090",
+            "profile_link_color": "1B3567",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F4990A",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:03:23 +0000 2017",
+        "id": 920666624998256600,
+        "id_str": "920666624998256640",
+        "text": "Jokowi Ingin Sebagian Dana Desa Untuk Kurangi Pengangguran https://t.co/XgviByMZAQ",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/XgviByMZAQ",
+                    "expanded_url": "https://goo.gl/Za2cVn",
+                    "display_url": "goo.gl/Za2cVn",
+                    "indices": [
+                        59,
+                        82
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 88352716,
+            "id_str": "88352716",
+            "name": "Tempo News Room",
+            "screen_name": "temponewsroom",
+            "location": "Indonesia",
+            "description": "Official Twitter account of Tempo News Room. Follow us for breaking news, current events, special reports, and something more from https://t.co/X6ONLydjhj",
+            "url": "https://t.co/X6ONLydjhj",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/X6ONLydjhj",
+                            "expanded_url": "http://tempo.co",
+                            "display_url": "tempo.co",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/X6ONLydjhj",
+                            "expanded_url": "http://tempo.co",
+                            "display_url": "tempo.co",
+                            "indices": [
+                                131,
+                                154
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 704521,
+            "friends_count": 4,
+            "listed_count": 1353,
+            "created_at": "Sun Nov 08 04:47:30 +0000 2009",
+            "favourites_count": 11,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 448706,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1501549553/logo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1501549553/logo_normal.jpg",
+            "profile_link_color": "990012",
+            "profile_sidebar_border_color": "FF0000",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    },
+    {
+        "created_at": "Wed Oct 18 15:03:13 +0000 2017",
+        "id": 920666583869005800,
+        "id_str": "920666583869005824",
+        "text": "Nekat Terjang Banjir, Mobil Mewah Ini Terjebak https://t.co/jndzJijdPh",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/jndzJijdPh",
+                    "expanded_url": "http://dlvr.it/PwM32b",
+                    "display_url": "dlvr.it/PwM32b",
+                    "indices": [
+                        47,
+                        70
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://viva.co.id\" rel=\"nofollow\">VIVA.co.id</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 41730943,
+            "id_str": "41730943",
+            "name": "VIVAcoid",
+            "screen_name": "VIVAcoid",
+            "location": "Jakarta, Indonesia",
+            "description": "Akun Twitter resmi portal https://t.co/JNYbfdcHaU",
+            "url": "https://t.co/vnAw8SFPGO",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/vnAw8SFPGO",
+                            "expanded_url": "http://www.viva.co.id",
+                            "display_url": "viva.co.id",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/JNYbfdcHaU",
+                            "expanded_url": "http://VIVA.CO.ID",
+                            "display_url": "VIVA.CO.ID",
+                            "indices": [
+                                26,
+                                49
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 3937289,
+            "friends_count": 47,
+            "listed_count": 5738,
+            "created_at": "Fri May 22 02:19:27 +0000 2009",
+            "favourites_count": 81,
+            "utc_offset": 25200,
+            "time_zone": "Jakarta",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 901819,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9E0B0F",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/565058550234243072/WtJpVpwi.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/565058550234243072/WtJpVpwi.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/884731229354033152/a9Wl1ISH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/884731229354033152/a9Wl1ISH_normal.jpg",
+            "profile_link_color": "0099CC",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F6F6F6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "in"
+    }
+]
