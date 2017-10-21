@@ -1,5 +1,23 @@
 // document ready, incompatible with ie8 and older
 document.addEventListener("DOMContentLoaded", function() {
+  // on hashtag click event
+  const hashtagClick = function() {
+    const keyword = $(this).html().slice(2);
+    axios.get('http://localhost:3000/search/' + encodeURIComponent(keyword))
+    .then(function (response) {
+      $('#tw-right-panel').empty();
+      const tweets = response.data;
+      tweets.forEach(tweet => {
+        const component = tweetCards(tweet);
+        $('#tw-right-panel').append(component);
+      });
+    })
+    .catch(function (error) {
+      $('#tw-right-panel').append(`<p style="color: hsl(348, 100%, 61%);">${error}</p>`);
+    });
+  }
+  $('#tw-right-panel').on('click', '.tw-hashtag', hashtagClick);
+
 
 	// fetch timeline on load
 	axios.get('http://localhost:3000/timeline')
@@ -84,25 +102,4 @@ document.addEventListener("DOMContentLoaded", function() {
   		
   	}
   });
-
-  // on hashtag click event
-  $('.tw-hashtag').on('click', function() {
-    alert('wow');
-    console.log('aiiii!!!');
-    const keyword = $(this).html().slice(1);
-    console.log('Hellooo!', keyword);
-    axios.get('http://localhost:3000/search/' + encodeURIComponent(keyword))
-    .then(function (response) {
-      $('#tw-right-panel').empty();
-      const tweets = response.data;
-      tweets.forEach(tweet => {
-        const component = tweetCards(tweet);
-        $('#tw-right-panel').append(component);
-      });
-    })
-    .catch(function (error) {
-      $('#tw-right-panel').append(`<p style="color: hsl(348, 100%, 61%);">${error}</p>`);
-    });
-  });
-
 });
