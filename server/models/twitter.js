@@ -21,7 +21,6 @@ class Twitter {
         process.env.ACCESSSECRET,
         function(e, data, res) {
           if (e) reject(e);
-          console.log(data);
           resolve(data)
         });
     })
@@ -35,7 +34,6 @@ class Twitter {
         process.env.ACCESSSECRET,
         function(e, data, res) {
           if (e) reject(e);
-          console.log(data);
           resolve(data)
         });
     })
@@ -49,7 +47,6 @@ class Twitter {
         process.env.ACCESSSECRET,
         function(e, data, res) {
           if (e) reject(e);
-          console.log(data);
           resolve(data)
         });
     })
@@ -57,7 +54,6 @@ class Twitter {
 
   postTweet(status) {
     return new Promise((resolve, reject) => {
-      console.log(encodeURIComponent(status));
       this.oauth.post(
         `https://api.twitter.com/1.1/statuses/update.json`,
         process.env.ACCESSKEY,
@@ -66,7 +62,6 @@ class Twitter {
         },
         function(e, data, res) {
           if (e) reject(e);
-          console.log(data);
           resolve(data)
         });
     })

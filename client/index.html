@@ -24,65 +24,88 @@
     <title>Twatt</title>
   </head>
   <body>
-    <div class="ui two column top aligned very relaxed stackable grid">
-      <div class="column">
-        <h1 class="ui center aligned header">Timeline</h1>
-        <button class="ui blue submit button" id="refresh_tweet_btn" type="button">Refresh Timeline</button>
-        <div class="ui container">
-          <h3 class="ui"></h3>
-          <div class="ui segments" id="timeline">
+    <div class="ui menu">
+      <div class="item">
+        <div class="ui primary button">Home</div>
+      </div>
+      <div class="item" id="login-btn">
+        <div id="fb-root"></div>
+        <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-use-continue-as="true" scope="public_profile,email" onlogin="checkLoginState();"></div>
+      </div>
+      <div class="item" id="logout-btn" style="display: none">
+        <button class="ui facebook button" type="button">Logout</button>
+      </div>
+    </div>
+    <div class="container" id="main-container">
+      <div class="ui two column top aligned very relaxed stackable grid">
+        <div class="column">
+          <h1 class="ui center aligned header">Timeline</h1>
+          <button class="ui blue submit button" id="refresh_tweet_btn" type="button">Refresh Timeline</button>
+          <div class="ui container">
+            <h3 class="ui"></h3>
+            <div class="ui segments" id="timeline">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="left aligned column">
-        <h1 class="ui center aligned header">Post Tweet</h1>
-        <div class="ui form">
-          <form id="tweet_form">
-            <div class="fourteen wide field">
-              <label>New tweet</label>
-              <div class="ui left icon input">
-                <input placeholder="Tweet" type="text" name="tweet" id="tweet_input">
-                <i class="twitter square icon"></i>
-              </div>
-            </div>
-            <div class="five wide field" id="message_box" style="display: none">
-              <div class="ui message">
-                <div class="header">
-                  You just post new tweet
+        <div class="left aligned column">
+          <h1 class="ui center aligned header">Post Tweet</h1>
+          <div class="ui form">
+            <form id="tweet_form">
+              <div class="fourteen wide field">
+                <label>New tweet</label>
+                <div class="ui left icon input">
+                  <input placeholder="Tweet" type="text" name="tweet" id="tweet_input">
+                  <i class="twitter square icon"></i>
                 </div>
-                <p>Your tweet has been sent to twitter</p>
               </div>
-            </div>
-            <button class="ui blue submit button" id="tweet_btn" type="button">Tweet</button>
-          </form>
-        </div>
-        <h1 class="ui center aligned header">Search Tweet</h1>
-        <div class="ui form">
-          <form id="tweet_search_form">
-            <div class="fourteen wide field">
-              <label>Tweet Keyword</label>
-              <div class="ui left icon input">
-                <input placeholder="Tweet Keyword" type="text" name="tweet_keyword" id="tweet_keyword_input">
-                <i class="twitter square icon"></i>
+              <div class="five wide field" id="message_box" style="display: none">
+                <div class="ui message">
+                  <div class="header">
+                    You just post new tweet
+                  </div>
+                  <p>Your tweet has been sent to twitter</p>
+                </div>
               </div>
-            </div>
-            <div class="ui segments" id="search_tweet" style="display: none">
+              <button class="ui blue submit button" id="tweet_btn" type="button">Tweet</button>
+            </form>
+          </div>
+          <h1 class="ui center aligned header">Search Tweet</h1>
+          <div class="ui form">
+            <form id="tweet_search_form">
+              <div class="fourteen wide field">
+                <label>Tweet Keyword</label>
+                <div class="ui left icon input">
+                  <input placeholder="Tweet Keyword" type="text" name="tweet_keyword" id="tweet_keyword_input">
+                  <i class="twitter square icon"></i>
+                </div>
+              </div>
+              <div class="ui segments" id="search_tweet" style="display: none">
 
-            </div>
-            <button class="ui blue submit button" id="tweet_search_btn" type="button">Search Tweet</button>
-            <button class="ui blue submit button" id="tweet_hide_btn" type="button">Hide Tweet</button>
-          </form>
+              </div>
+              <button class="ui blue submit button" id="tweet_search_btn" type="button">Search Tweet</button>
+              <button class="ui blue submit button" id="tweet_hide_btn" type="button">Hide Tweet</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </body>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
   <script src="semantic/dist/semantic.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
+      if(localStorage.getItem("token")) {
+        $("#main-container").show();
+      } else {
+        $("#main-container").hide();
+      }
+
       function getTimeline(){
         $.ajax({
-          url: "http://localhost:3000/api/timeline",
+          url: "http://localhost:3000/api/twitter/timeline",
           success: function(data) {
             data.forEach(element => {
               console.log(element);
@@ -120,7 +143,7 @@
 
       $("#tweet_search_btn").click(function(){
         let keyword = $("#tweet_keyword_input").val();
-        $.get(`http://localhost:3000/api/search_tweet?q=${keyword}`,
+        $.get(`http://localhost:3000/api/twitter/search_tweet?q=${keyword}`,
           function(data) {
             $("#tweet_keyword_input").val("");
             $("#search_tweet").show();
@@ -148,7 +171,7 @@
       })
 
       $("#tweet_btn").click(function(){
-        $.post("http://localhost:3000/api/post_tweet", $("#tweet_form").serialize(),
+        $.post("http://localhost:3000/api/twitter/post_tweet", $("#tweet_form").serialize(),
           function(data) {
             $("#tweet_input").val("");
             $("#message_box").show().delay(5000).fadeOut();
@@ -159,5 +182,61 @@
           })
       })
     })
+
+
+    function statusChangeCallback(response) {
+      if (response.status === 'connected') {
+        // Logged into your app and Facebook.
+        $.post('http://localhost:3000/api/facebook', {
+          accessToken: response.authResponse.accessToken,
+          userId: response.authResponse.userID
+        }, function(response) {
+          localStorage.setItem('token', response);
+          $("#main-container").show();
+        })
+        .fail(function (error) {
+          console.log(error);
+        });
+        $("#login-btn").hide();
+        $("#logout-btn").show();
+      } else {
+        $("#main-container").hide();
+      }
+    }
+
+    function checkLoginState() {
+      FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+      });
+    }
+
+    $("#logout-btn").click(function(){
+      // hapus local storage
+      localStorage.removeItem('token');
+      FB.logout();
+      $(this).hide();
+      $("#login-btn").show();
+      $("#main-container").hide();
+    })
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : 530630337289252,
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v2.8'
+      });
+      FB.AppEvents.logPageView();
+      checkLoginState();
+    };
+
+    // Load the SDK asynchronously
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.10&appId=530630337289252";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
   </script>
 </html>
